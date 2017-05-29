@@ -1,13 +1,37 @@
+GIT
+  remote: https://github.com/eagletmt/websocket-client-simple.git
+  revision: 34bdf08b2b48efaa347bc7834920f92174411561
+  branch: rename-send
+  specs:
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (9.0.6)
+    coderay (1.1.1)
+    event_emitter (0.2.5)
     google-protobuf (3.3.0)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    slop (3.6.0)
+    websocket (1.2.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   google-protobuf (~> 3.3.0)
+  pry-byebug
+  websocket-client-simple!
 
 BUNDLED WITH
    1.15.0
